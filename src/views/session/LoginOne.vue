@@ -41,36 +41,6 @@
 						<p>{{$t('message.bySigningUpYouAgreeTo')}} {{brand}}</p>
 						<router-link to="">{{$t('message.termsOfService')}}</router-link>
 					</v-form>
-					<div class="session-social-links d-inline-block">
-						<ul class="list-inline">
-							<li @click="signInWithFacebook">
-								<span class="facebook-bg session-icon">
-									<i class="ti-facebook"></i>
-								</span>
-							</li>
-							<li @click="signInWithGoogle">
-								<span class="google-bg session-icon">
-									<i class="ti-google"></i>
-								</span>
-							</li>
-							<li @click="signInWithTwitter">
-								<span class="twitter-bg session-icon">
-									<i class="ti-twitter-alt"></i>
-								</span>
-							</li>
-							<li @click="signInWithGithub">
-								<span class="github-bg session-icon">
-									<i class="ti-github"></i>
-								</span>
-							</li>
-						</ul>
-						<v-btn 
-							color="error" 
-							@click="signinWithAuth0"
-						>
-							Signin With Auth0
-						</v-btn>
-					</div>
 				</div>
 			</div>
 		</div>
